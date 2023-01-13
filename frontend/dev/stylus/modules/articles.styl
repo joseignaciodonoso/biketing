@@ -34,4 +34,19 @@ article
 
 	&.article--features
 		padding: 15px
+		min-height: 275px
+		display: flex
+		flex-direction: column
+		justify-content: flex-end
+		position: relative
+		border-radius: 20px
+		@media $break-md
+			min-height: 230px
+		.article__icon
+			position: absolute
+			top 20px
+			right: 20px
+		.article__body
+			.article__title
+				width 60%
 
